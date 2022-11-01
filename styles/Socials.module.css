@@ -1,0 +1,49 @@
+.socials_container {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+.link_container {
+  border-radius: 90px;
+  padding: 5% 6% 5% 6%;
+  margin: 0px 0px 45px 0px;
+  width: 70%;
+  box-shadow: 3px 3px 10px 4px var(--color-primary-diff);
+  text-align: center;
+  display: inline-block;
+  text-shadow: 2px 2px 3px var(--color-secondary);
+}
+
+.link_container p {
+  display: none;
+}
+.link_container h2 {
+  font-size: 1.25em;
+  text-shadow: 3px 3px 4px var(--color-secondary);
+}
+.link_container h2:hover {
+  color: var(--color-secondary);
+  font-style: italic;
+}
+
+/* maintains centered layout on extremely small screens
+such as the Galaxy Fold  */
+@media (max-width: 345px) {
+  .link_container {
+    width: 80%;
+    padding: 4% 5% 4% 9%;
+  }
+  .link_container h2 {
+    font-size: 1.25em;
+  }
+}
+
+@media (min-width: 990px) {
+  .link_container {
+    width: 52%;
+    padding: 4% 5% 4% 5%;
+  }
+  .link_container h2 {
+    font-size: 1.5em;
+  }
+}

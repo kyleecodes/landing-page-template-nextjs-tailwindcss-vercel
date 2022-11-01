@@ -1,0 +1,30 @@
+.navbar_container {
+  margin: 25px 0px 10px 0px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 3px 2px 8px 3px var(--color-primary-diff);
+  text-shadow: 2px 2px 3px var(--color-secondary);
+  background-color: var(--color-bg-primary);
+}
+
+.navlinks_container {
+  text-align: left;
+  color: var(--color-font);
+  text-shadow: 1px 1px 2px var(--color-primary);
+}
+
+.navlinks_container li {
+  margin: 0 2% 0 0%;
+  list-style: none;
+}
+
+/* unvisited link */
+.navlinks_container li a:link {
+  color: var(--color-font);
+}
+
+/* mouse over link */
+.navlinks_container li a:hover {
+  color: rgba(110, 250, 255, 0.541);
+  color: var(--color-contrast);
+}
